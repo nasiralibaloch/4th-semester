@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body>
+    <style>
+      /* type selector */
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      nav{
+            background-color: aquamarine;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+      }
+      nav  li {
+        /* list-style-type: none; */
+        display: inline;
+        
+       padding: 14px 16px;
+       
+      }
+      nav li img{
+            margin-right: 300px;
+      }
+      nav li a {
+        color: black;
+        text-decoration: none;
+      }
+
+      nav  li a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+
+      .header {
+       background-image: url("aero.jpg");
+        height: 550px;
+        background-position: right;
+        background-size: cover;
+        padding-top:100px; 
+      }
+      .sport{
+            background-image: url("imran.jpg");
+            height: 550px;
+        background-position: right;
+        background-size: cover;
+        padding-top:100px; 
+      }
+/* 
+      .logo {
+        float: left;
+      }
+
+      .navbar {
+        float: left;
+      }
+
+      .search {
+        float: left;
+      } */
+      
+    </style>
+    <!-- <strong class="LOGO" &snps>Junior</strong>
+    <div class="search">icons</div> -->
+    <div>
+      <nav>
+            <li><img src="junior.jpg"></li>
+          
+           
+           <li><a href="#">Home</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+      </nav>
+    </div>
+    <div style="clear: both"></div>
+    <div class="header"></div>
+    <div class="sport"></div>
+    <section></section>
+    <section></section>
+    <section></section>
+  </body>
+</html>
